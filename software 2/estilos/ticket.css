@@ -1,0 +1,181 @@
+body {
+    background-color: #0e0e0e;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+nav *{
+    background-color: black;
+    color: white;
+}
+
+nav {
+    padding: 3%;
+    width: auto;
+    text-align: center;
+    background-color: black;
+}
+
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav #logo h1 {
+    margin: 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: rgb(30, 63, 128);
+}
+
+nav #secciones,
+nav #sesion {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 20px;
+    background-color: rgb(30, 63, 128);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(40, 83, 168);
+}
+
+.registro-container {
+    width: 40%;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: rgba(30, 63, 128, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.registro-container h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label,
+.input-group textarea {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.input-group textarea {
+    min-height: 2em;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    outline: none;
+    border: 2px solid rgb(30, 63, 128);
+}
+
+.registro-button {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(30, 63, 128);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registro-button:hover {
+    background-color: rgb(40, 83, 168);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-seccion {
+    text-align: left;
+}
+
+.footer-seccion a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-seccion h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+footer .footer-seccion a:hover{
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: white;
+}
+
+.footer-seccion ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-seccion li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: black;
+}

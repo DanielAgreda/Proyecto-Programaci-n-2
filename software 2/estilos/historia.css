@@ -1,0 +1,173 @@
+body {
+    background-color: #0e0e0e;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+nav *{
+    background-color: black;
+    color: white;
+}
+
+nav {
+    padding: 3%;
+    width: auto;
+    text-align: center;
+    background-color: black;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav #logo {
+    display: flex;
+    align-items: center;
+}
+
+nav #logo img {
+    height: 75px;
+    width: 75px;
+    margin-right: 10px;
+}
+
+nav #logo h1 {
+    margin: 0;
+}
+
+nav #secciones,
+nav #sesion {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: rgb(30, 63, 128);
+}
+
+nav .button:hover {
+    background-color: rgb(40, 83, 168);
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 20px;
+    background-color: rgb(30, 63, 128);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(40, 83, 168);
+}
+.hero {
+    text-align: center;
+    padding: 100px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent), url('historia.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.hero p {
+    font-size: 20px;
+    color: white;
+}
+
+.historia-content {
+    padding: 40px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.historia-content article {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.historia-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-seccion {
+    text-align: left;
+}
+
+.footer-seccion h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-seccion a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-seccion a:hover{
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: white;
+}
+
+.footer-seccion ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-seccion li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: black;
+}
+
